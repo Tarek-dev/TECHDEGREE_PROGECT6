@@ -81,6 +81,7 @@ qwerty.addEventListener('click', (e) => {
       }
       return match;
     }
+  }
 
   const letterFound = checkLetter(e.target.textContent);
 
